@@ -6,7 +6,7 @@ This application, Mobile Flashcards, has been built using React, Redux and React
 
 Clone the app to your machine and then run the following commands in the directory of that your cloned
 - npm install or yarn install
-- npm start or yarn start
+- npm start or yarn start (if these do not work, try 'react-native start' or 'expo start') 
 
 ## About
 
