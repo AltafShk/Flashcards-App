@@ -25,7 +25,7 @@ const store = createStore(reducer, middleware)
 export default class App extends React.Component {
 
   componentDidMount(){
-    store.dispatch(handleInitialData())
+    //store.dispatch(handleInitialData())   uncomment this to get initial data
     store.dispatch(getAllDecks())
 
     setLocalNotification()    
